@@ -200,12 +200,12 @@ li a:hover:not(.active) {
 	font-family: 'Lobster', cursive;
 
 }
-
+/*
 .connect-with-us
 {
 	color: blue; 
 	font-size: 25px;
-}
+}*/
 .contact-class
 {
 	color:blue;
@@ -234,4 +234,15 @@ text-align: center;
 font-size:40px;
 font-family:'Lobster', cursive;
 }
-
+.grid_4 a
+{
+	color:blue;
+	display:inline;
+	text-decoration: none;
+	font-size: 20px;
+	padding-right: 3px;
+}
+.grid_4 a:hover
+{
+	text-decoration-line: underline;
+}
