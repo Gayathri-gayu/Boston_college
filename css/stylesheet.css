@@ -10,6 +10,7 @@
 
 .nav-position{
 	position: fixed;
+	width:97%;
 
 }
 .landing-page{
@@ -48,7 +49,7 @@ ul {
     background-color: #333;
     top: 0;
     position: fixed;
-    width: 100%;
+   
 }
 .hero-style
 {
@@ -89,7 +90,7 @@ font-size: 15px;
 background-color: black;
 font-family: 'Roboto', sans-serif;
 font:sans-serif;
-width: 100%; 
+width:99%; 
 }
 .about-style
 {
