@@ -1,4 +1,4 @@
-
+/* heading section*/
 .heading img {
   float:left;
   width:150px;
@@ -8,6 +8,7 @@
 
 }
 
+/*navigation bar*/
 .nav-position{
 	position: fixed;
 	width:97%;
@@ -22,10 +23,7 @@
 	padding-bottom: 15px;
 	padding-left: 30px;
 }
-.container_12
-{
-margin-top:10px;
-}
+
 .vibrant-style
 {
 color:#e9ab18;
@@ -51,6 +49,8 @@ ul {
     position: fixed;
    
 }
+
+/* class for hero page*/
 .hero-style
 {
 	font-family: 'Roboto', sans-serif;
@@ -117,7 +117,6 @@ width:99%;
 	font-size: 65px; 
 	color:330033;
 	text-align:center;
-	
 }
 .schedule-style
 {
@@ -190,7 +189,25 @@ li a:hover:not(.active) {
     width:400px;
 
  }
- .footer {
+ 
+.contact-class
+{
+	color:blue;
+	display:block;
+	text-decoration: none;
+	font-size:19px;
+}
+
+.education-style
+{
+	color: grey; 
+	text-align:center;
+	margin-left: 180px;
+	margin-right: 180px;
+}
+
+/*footer class*/
+.footer {
 	width: 100%;
 	height:100%;
 	clear: both;
@@ -208,27 +225,6 @@ li a:hover:not(.active) {
 	display:block;
 }
 
-/*
-.connect-with-us
-{
-	color: blue; 
-	font-size: 25px;
-}*/
-.contact-class
-{
-	color:blue;
-	display:block;
-	text-decoration: none;
-	font-size:19px;
-}
-
-.education-style
-{
-	color: grey; 
-	text-align:center;
-	margin-left: 180px;
-	margin-right: 180px;
-}
 footer a
 {
 	color:blue;
