@@ -24,6 +24,7 @@
 	padding-left: 30px;
 }
 
+/* classes for 3 column section*/
 .vibrant-style
 {
 color:#e9ab18;
@@ -39,6 +40,8 @@ text-align: justify;
 font-family: 'Roboto', sans-serif;
 font-size: 17px;
 }
+
+/*css for list*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -48,6 +51,22 @@ ul {
     top: 0;
     position: fixed;
    
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;#28426b
+
+}
+
+li a:hover:not(.active) {
+    background-color: #28426b;
 }
 
 /* class for hero page*/
@@ -117,6 +136,7 @@ width:99%;
 	font-size: 65px; 
 	color:330033;
 	text-align:center;
+	text-shadow: 7px 7px 7px red;
 }
 .schedule-style
 {
@@ -129,22 +149,7 @@ width:99%;
 	color:#cc0066; 
 	font-size: 25px;
 }
-li {
-    float: left;
-}
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;#28426b
-
-}
-
-li a:hover:not(.active) {
-    background-color: #28426b;
-}
 
 .heading-class
 {
@@ -154,6 +159,8 @@ li a:hover:not(.active) {
 	text-shadow: 7px 7px 7px red;
 	text-align: center;
 }
+
+/* class for hero page*/
 .hero-class{
 	padding: 20px;
 	padding-top: 10px;
@@ -168,7 +175,7 @@ li a:hover:not(.active) {
     border-radius: 6px;
    background-color:#e3e3e3;
 }
-
+/* css for hero section image */
 .hero-image
 {
     background-repeat: no-repeat;
@@ -232,6 +239,8 @@ footer a
 	text-decoration: none;
 
 }
+
+
 .campus-style
 {
 color:#e9ab18;
